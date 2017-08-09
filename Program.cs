@@ -15,6 +15,7 @@ namespace yournamespace
         private static string userId = "{your user id here}";
         private static string apiKey = "{your apikey here}";
         private static string version = "1.0";
+        //Hora de Perú GMT -5
         private static string timeStamp = DateTime.Now.ToString("yyyy-MM-dd") + DateTime.Now.ToString("THH") + DateTime.Now.ToString(":mm") + DateTime.Now.ToString(":ss") + "-05:00";
         
         //Para retornar objeto Encoding al generar hash
